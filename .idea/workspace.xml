@@ -4,18 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bddc0a4-98cf-4b94-8386-2faeb07024aa" name="Changes" comment="" />
+    <list default="true" id="5bddc0a4-98cf-4b94-8386-2faeb07024aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/simple/IDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/automation/simple/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/CommonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/page/PricePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/BaseWebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/CommonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2Zt77VeMGRucNSZSa0gG6yfZLfV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,11 +54,117 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/automation/DigitalSkola/WebAutomationFUndamental",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.HomePageTest.succesGetValue">
+    <configuration name="HomePageTest.succesGetValue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HomePageTest" />
+      <option name="METHOD_NAME" value="succesGetValue" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.successLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.LoginTest" />
+      <option name="METHOD_NAME" value="successLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.simple" />
+      <option name="MAIN_CLASS_NAME" value="automation.simple.SeleniumTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.extractValue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.simple" />
+      <option name="MAIN_CLASS_NAME" value="automation.simple.SeleniumTest" />
+      <option name="METHOD_NAME" value="extractValue" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.loginTestSucces" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationAdvance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automation.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automation.simple" />
+      <option name="MAIN_CLASS_NAME" value="automation.simple.SeleniumTest" />
+      <option name="METHOD_NAME" value="loginTestSucces" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.HomePageTest.succesGetValue" />
+        <item itemvalue="TestNG.SeleniumTest.extractValue" />
+        <item itemvalue="TestNG.SeleniumTest" />
+        <item itemvalue="TestNG.SeleniumTest.loginTestSucces" />
+        <item itemvalue="TestNG.LoginTest.successLogin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +173,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703229356854</updated>
-      <workItem from="1703229358057" duration="3000" />
+      <workItem from="1703229358057" duration="232000" />
+      <workItem from="1703245875634" duration="1332000" />
+      <workItem from="1703247779138" duration="3000" />
+      <workItem from="1703442109917" duration="3481000" />
+      <workItem from="1703484493687" duration="2859000" />
+      <workItem from="1703528449962" duration="1562000" />
+      <workItem from="1703619141075" duration="3662000" />
+      <workItem from="1703657477261" duration="4139000" />
+      <workItem from="1703681578551" duration="1518000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/automation/simple/SeleniumTest.java</url>
+          <line>19</line>
+          <properties class="automation.simple.SeleniumTest" method="extractValue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

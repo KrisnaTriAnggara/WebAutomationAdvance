@@ -1,38 +1,19 @@
 package org.example;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
+public class AppTest {
+
+    @Test(testName = "verify 1 is 1 its true",description = "This test for verify 1 is 1")
+    public void shouldReturnTrue()
     {
-        super( testName );
+        assertEquals(1,1);
     }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
+    @Test(testName = "verify 1 is 2 its false",description = "This test for verify 1 is 2")
+    public void shouldReturnFlase()
     {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+        assertEquals(1,2);
     }
 }

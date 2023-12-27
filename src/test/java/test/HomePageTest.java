@@ -1,31 +1,20 @@
 package test;
 
-import org.testng.Assert;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
-import page.LoginPage;
+import page.HomePage;
 
-public class LoginTest extends BaseWebTest{
+public class HomePageTest extends BaseWebTest{
 
 
     @Test
-    public void successLogin() {
-        LoginPage loginPage = new LoginPage(driver, explicitWait);
-        HomePage homePage = new HomePage(driver,explicitWait);
+     public void succesGetValue(){
+        HomePage homePage = new HomePage(driver, explicitWait);
 
-        loginPage.login("tomsmith","SuperSecretPassword!");
-        String txtExpectedBerhasilLogin = "Secure Area";
-        Assert.assertEquals(txtExpectedBerhasilLogin,homePage.getHomeText());
+        homePage.homePage();
 
     }
 
-    @Test
-    public void failedLogin() {
-        LoginPage loginPage = new LoginPage(driver, explicitWait);
-        HomePage homePage = new HomePage(driver,explicitWait);
 
-        loginPage.login("tomsmith","SuperSecretPasswo");
-        Assert.assertTrue(loginPage.getTextFailedLogin().contains("Your password is invalid!"));
-
-    }
 
 }
